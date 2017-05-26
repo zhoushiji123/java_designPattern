@@ -10,7 +10,18 @@ public class MyClass implements MyInterface {
 
     }
 
+    @Override
     public void execute(){
         System.out.println(" it is myclass");
+    }
+
+
+
+    public void execute(int id ,String name){
+        System.out.println(id+" "+name);
+    }
+
+    public void execute(String name){
+        System.out.println(name);
     }
 }
