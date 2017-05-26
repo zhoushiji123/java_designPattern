@@ -1,11 +1,9 @@
 package com.zsj.dynamicProxy;
 
 /**
- * Created by zsj on 2017/5/5.
+ * Created by zsj on 2017/5/26.
  */
-public class Subject {
+public interface Subject {
 
-    public void execute(){
-        System.out.println("客户类");
-    }
+    void execute();
 }
